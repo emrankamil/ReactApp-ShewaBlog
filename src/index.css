@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "~font-awesome/css/font-awesome.min.css";
 
 /* base styles */
 body{
@@ -87,3 +88,25 @@ body{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* error message styling */
+
+.error-container {
+  background-color: #f8d7da;
+  border: 1px solid #dc3545; 
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.error-icon {
+  margin-right: 20px;
+  color: #dc3545; 
+}
+
+.error-message {
+  color: #721c24; 
+}
+
