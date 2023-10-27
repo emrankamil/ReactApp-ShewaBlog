@@ -1,0 +1,25 @@
+{
+    "blogs": [
+        {
+            "title": "My React blog app",
+            "body": "Lorem epsum ...",
+            "author": "Emran",
+            "id": 0
+        },
+        {
+            "title": "My first Game program",
+            "body": "Lorem ipsum ... ",
+            "author": "Imran",
+            "id": 1
+        },
+        {
+            "title": "Free Version Control Course",
+            "body": "Lorem Ipsum ... ",
+            "author": "Oumer",
+            "id": 2
+        }
+    ],
+    "comment": [" create a local aip for the database with this command-npx json-server --watch data/db.json --port 8000"]
+}
+
+
