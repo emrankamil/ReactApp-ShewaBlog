@@ -1,17 +1,33 @@
+import {Link} from 'react-router-dom'
+
 const Navbar = () => {
-    const style = {
-        color:"#FAF0E6",
-        borderRadius:" 8px",
-    }
+
     return (
-        <nav className="navbar">
-            <h1>Shewa Blog</h1>
-            <div className="links">
-                 
-                <a href="/"> Home </a>
-                <a href="/create" style={style}>New Blog</a>
-            </div>
-        </nav>
+        <div>
+           <nav className="navbar">
+                <div>
+                    <h1>
+                        <Link to="/" className="font:bold uppercase" >Shewa Blog</Link>
+                    </h1>
+                </div>
+                <ul>
+                    <li className='text-grey-700 font-bold'>
+                        <Link to="/"><span>Home</span></Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li className='text-grey-700 font-bold'>
+                        <Link to="/create"><span>Create</span></Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li className='text-grey-700 font-bold'>
+                        <Link to="/"><span>About</span></Link>
+                    </li>
+                </ul>
+            </nav> 
+        </div>
+        
      );
 }
  
